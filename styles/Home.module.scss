@@ -1,0 +1,97 @@
+.container {
+   width: 100%;
+   height: 100vh;
+   margin: 0 auto;
+
+   header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9;
+
+      .searchContainer {
+         display: flex;
+         justify-content: flex-start;
+         margin-top: -2.85rem;
+         margin-left: 1.5rem;
+
+         .searchIcon {
+            cursor: pointer;
+
+            transition: all ease 0.2s;
+            &:hover {
+               filter: brightness(0.8);
+               transform: scale(1.1);
+            }
+         }
+      }
+   }
+
+   @media (min-width: 768px) {
+      header {
+         .searchContainer {
+            justify-content: flex-end;
+            margin-top: -3rem;
+            margin-right: 2.75rem;
+         }
+      }
+   }
+}
+
+.topIntroText {
+   position: relative;
+   top: -10rem;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+
+   height: 0;
+   z-index: 10;
+   color: var(--white);
+
+   h2 {
+      width: 95%;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 5px #000;
+   }
+
+   p {
+      width: 15rem;
+      font-size: 1.25rem;
+   }
+}
+
+.bookCatalogue {
+   display: block;
+   margin-top: 2rem;
+   padding-bottom: 1.5rem;
+}
+
+.bookCategory {
+   margin: 0 0.25rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   .bannerContainer {
+      width: 100%;
+   }
+}
+
+@media (min-width: 1024px) {
+   .bannerContainer {
+      width: 100%;
+      padding: 0;
+      margin-top: -1rem;
+   }
+   .topIntroText {
+      top: -13rem;
+
+      h2 {
+         font-size: 2.75rem;
+      }
+   }
+}

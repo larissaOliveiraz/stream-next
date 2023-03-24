@@ -1,0 +1,50 @@
+//8400ff
+
+:root {
+   --main: #911bff;
+   --white: #e2e2e2;
+   --black: #000000;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+html,
+body {
+   max-width: 100vw;
+   overflow-x: hidden;
+
+   &::-webkit-scrollbar {
+      width: 0.5rem;
+      border-radius: 1rem;
+      background-color: rgba(226, 226, 226, 0.2);
+   }
+
+   &::-webkit-scrollbar-thumb {
+      background-color: var(--white);
+      border-radius: 1rem;
+      transition: all ease 0.2s;
+   }
+}
+
+body {
+   background-color: var(--black);
+   /* background: linear-gradient(to bottom, transparent, rgb(23, 3, 46))
+      rgb(0, 0, 0); */
+}
+
+body,
+input,
+textarea,
+button,
+legend {
+   font: 400 1rem Roboto, sans-serif;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}

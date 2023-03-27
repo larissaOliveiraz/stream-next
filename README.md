@@ -1,40 +1,87 @@
-This product uses the TMDB API but is not endorsed or certified by TMDB.
+### This product uses the TMDB API but is not endorsed or certified by TMDB.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> 
+	🚧  Stream-Next 🎦 Concluído 🚧
+</h1>
 
-## Getting Started
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+</p>
 
-First, run the development server:
+## 💻 Sobre o projeto
+
+-  ### 🎦 Stream-Next - O site é uma plataforma online que oferece uma ampla variedade de informações sobre filmes, séries e atores. Com uma interface intuitiva e fácil de usar, você pode procurar títulos e atores específicos, bem como descobrir novos filmes e programas de TV para assistir.
+
+---
+
+## ⚙️ Funcionalidades
+
+-  ### Os usuários tem acesso ao website, onde podem:
+   -  navegar pelo catálogo e acessar informações sobre filmes e séries.
+   -  pesquisar por um filme, série ou ator específico e acessar suas informações
+
+---
+
+## 🚀 Como executar o projeto
+
+### 💡Pré-requisitos
+
+-  É necessário ter instalado as seguintes ferramentas:
+   [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+   Além disto é preciso de um editor para trabalhar e visualizar o código, como o [VSCode](https://code.visualstudio.com/)
+
+### ⏳ Instalando a aplicação:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+# Clone este repositório:
+$ git clone https://github.com/larissaOliveiraz/stream-next.git
+
+# Acesse a pasta do projeto no seu terminal/cmd:
+$ cd stream-next
+
+# Instale as dependências:
+$ npm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ☸️ Rodando a aplicação (escolha uma das duas opções):
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# Ambiente de desenvolvimento - (app mais lento, sem StaticGeneration):
+$ npm run dev
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Ambiente de produção - (app mais rápido - com StaticGeneration):
+$ npm run build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+$ npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🛠 Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+Ferramentas usadas na construção do projeto:
 
--  [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--  [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Website ([NextJS](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-  **[Phosphoric Icons](https://phosphoricons.com)**
+-  **[Axios](https://github.com/axios/axios)**
+-  **[Sass](https://sass-lang.com)**
+-  **[Next getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props)**
+-  **[Next getStaticProps](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👩🏽‍💻 Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Entre em contato:
+
+[![Linkedin Badge](https://img.shields.io/badge/-Larissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissa-oliveira-a04611238/)](https://www.linkedin.com/in/larissa-oliveira-a04611238/)
+[![Gmail Badge](https://img.shields.io/badge/-oliveira.larissa.dv@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:oliveira.larissa.dv@gmail.com)
+
+---

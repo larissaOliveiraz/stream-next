@@ -14,7 +14,7 @@
 
 ## 💻 Sobre o projeto
 
--  ### 🎦 Stream-Next - O site é uma plataforma online que oferece uma ampla variedade de informações sobre filmes, séries e atores. Com uma interface intuitiva e fácil de usar, você pode procurar títulos e atores específicos, bem como descobrir novos filmes e programas de TV para assistir.
+-   🎦 O site é uma plataforma online que oferece uma ampla variedade de informações sobre filmes, séries e atores. Com uma interface intuitiva e fácil de usar, você pode procurar títulos e atores específicos, bem como descobrir novos filmes e programas de TV para assistir.
 
 ---
 
@@ -32,7 +32,7 @@
 
 -  É necessário ter instalado as seguintes ferramentas:
    [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-   Além disto é preciso de um editor para trabalhar e visualizar o código, como o [VSCode](https://code.visualstudio.com/)
+   Além disto é preciso de um editor para editar e visualizar o código, como o [VSCode](https://code.visualstudio.com/)
 
 ### ⏳ Instalando a aplicação:
 
